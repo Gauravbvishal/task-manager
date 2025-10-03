@@ -2,7 +2,7 @@
 
     const connectDB = async () => {
       try {
-        await mongoose.connect('mongodb+srv://vishalgaurav985_db_user:vishal985@cluster0.b3d76sp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+        await mongoose.connect('database connection URL', {
           useNewUrlParser: true,
           useUnifiedTopology: true,
           // Other options if needed, e.g., useCreateIndex: true, useFindAndModify: false
